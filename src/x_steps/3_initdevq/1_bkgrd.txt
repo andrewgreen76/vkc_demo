@@ -1,0 +1,4 @@
+"
+The next natural step (still without graphics output) is creating a logical device and queue, which is the first time your program actually obtains a handle capable of issuing GPU work.
+"
+_

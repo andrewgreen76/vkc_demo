@@ -1,0 +1,15 @@
+
+Top-level object:
+ . root object for all the other objects in a Vulkan project; a Vulkan instance
+ . "In **Vulkan**, a **“top-level object”** means the first object your program must create (the **instance**)
+    because all other Vulkan objects—like devices, surfaces, and queues—are created through or depend on it."
+
+Vulkan device:
+ . "In **Vulkan**, a **device** refers to a GPU available to the system—either as a **physical device** (the
+    actual graphics hardware) or a **logical device** (the software interface your program uses to submit work to that GPU)."
+
+LLVM pipe:
+ . "**LLVMpipe** is a CPU-based software renderer in the **Mesa** graphics stack that uses **LLVM** to compile
+    shader code so graphics APIs like **OpenGL** can run even when no GPU acceleration is available."
+
+_

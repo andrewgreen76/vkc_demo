@@ -1,0 +1,4 @@
+"
+If you'd like, I can also show the next incremental step most tutorials take (enumerating physical devices) which is typically the first useful Vulkan interaction with the GPU.
+"
+_
