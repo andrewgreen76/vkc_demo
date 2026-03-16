@@ -1,0 +1,5 @@
+"
+**GLFW** only creates windows and handles input, so you still need a graphics API such as **OpenGL**, **Vulkan**,
+or **Direct3D** to actually render something like a triangle.
+"
+_
