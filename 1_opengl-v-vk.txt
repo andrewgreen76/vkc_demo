@@ -9,6 +9,10 @@
 
 
 "
-**OpenGL** automatically manages tasks like GPU memory allocation, pipeline state changes, and command scheduling, whereas **Vulkan** makes developers handle these explicitly so drivers do less hidden work and applications can achieve more predictable performance and better parallelism.
+**OpenGL** automatically manages tasks like:
+ . GPU memory allocation
+ . pipeline state changes
+ . command scheduling
+... whereas **Vulkan** makes developers handle these explicitly so drivers do less hidden work and applications can achieve more predictable performance and better parallelism.
 "
 _
