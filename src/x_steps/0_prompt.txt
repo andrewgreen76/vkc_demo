@@ -1,0 +1,7 @@
+Resume "state 1". Generate the preview of index.html, parse the preview, and make sure that it displays contents of index.html as a webpage instead of displaying "Not Found". If success, do not say anything and display the preview of index.html as a webpage. If failure, provide the reason in one sentence. 
+
+===================================================================================
+
+I have a repo with URL https://github.com/andrewgreen76/fhcc.git and the branch is main. Git-pull the remote repo to your container. Make sure the repo on the container is currently being served. If success, do everything in your power to get Playwright's browser container request path/context to hit the same local server instance as curl. If failure, report in one sentence what happened and stop working. If success, generate the preview of index.html, parse the preview, and make sure that it displays contents of index.html as a webpage instead of displaying "Not Found". If success, do not say anything and display the preview of index.html as a webpage. If failure, provide the reason in one sentence. 
+
+_
