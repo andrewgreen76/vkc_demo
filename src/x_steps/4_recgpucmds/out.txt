@@ -1,0 +1,6 @@
+Using device: Intel(R) Iris(R) Xe Graphics (ADL GT2)
+Logical device created successfully
+Graphics queue family index: 0
+Queue handle acquired successfully
+Command pool created successfully
+Command buffer allocated successfully

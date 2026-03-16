@@ -12,4 +12,19 @@ LLVM pipe:
  . "**LLVMpipe** is a CPU-based software renderer in the **Mesa** graphics stack that uses **LLVM** to compile
     shader code so graphics APIs like **OpenGL** can run even when no GPU acceleration is available."
 
+GPU command queue:
+ . "A **GPU command queue** in **Vulkan** is a FIFO stream where a program submits recorded GPU commands (such
+    as drawing, memory transfers, or compute work) for the GPU to execute asynchronously."
+
+GPU command queue family:
+ . a set of queues for graphics ops
+ . "In **Vulkan**, a **graphics-capable queue family** is a group of GPU command queues that support graphics
+    operations (such as drawing and rendering) indicated by the `VK_QUEUE_GRAPHICS_BIT` capability flag."
+
+Command pool:
+ . manages memory meant for command buffers
+
+Command buffer:
+ . a sequence of GPU instructions cached and moved to a GPU queue for execution
+ => The pool loads up the buffer with GPU ops and moves them to a command queue for the GPU.
 _

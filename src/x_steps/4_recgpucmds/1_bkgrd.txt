@@ -1,4 +1,4 @@
 "
-The next natural step (still without graphics output) is creating a logical device and queue, which is the first time your program actually obtains a handle capable of issuing GPU work.
+The next step after this is usually creating a command pool and command buffer, which is the first step toward recording GPU commands without displaying anything.
 "
 _
