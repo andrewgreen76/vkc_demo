@@ -1,0 +1,9 @@
+"
+**OpenGL has not been deprecated on Linux**, but newer graphics APIs like **Vulkan** are increasingly used as a modern alternative with lower-level control and better performance.
+"
+
+
+"
+**Vulkan** offers greater transparency and flexibility than **OpenGL** because it exposes lower-level control of the GPU and requires developers to manage many details that OpenGL previously handled automatically.
+"
+_
