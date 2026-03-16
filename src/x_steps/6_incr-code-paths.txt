@@ -1,0 +1,5 @@
+"
+... at the stage where you only create a window and a **Vulkan instance**, you do **not** need a GPU device,
+command pool, or command buffers yet, because those are only required once you start submitting work to the GPU.
+"
+_

@@ -1,4 +1,0 @@
-Detected 2 Vulkan device(s):
-
-Device 0: Intel(R) Iris(R) Xe Graphics (ADL GT2)
-Device 1: llvmpipe (LLVM 20.1.2, 256 bits)
