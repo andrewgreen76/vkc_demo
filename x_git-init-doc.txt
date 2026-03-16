@@ -1,12 +1,6 @@
 git init -b main
 git add .
 git commit -m "Initial commit"
-git branch -m main
+
+// Change this: $ git remote add origin https://github.com/andrewgreen76/##GITPROJECT###.git
 git push -u origin main
-git remote set-url origin https://github.com/andrewgreen76/gmail4cli.git
-git remote add origin https://github.com/andrewgreen76/gmail4cli.git
-git remote set-url origin https://github.com/andrewgreen76/gmail4cli.git
-git push -u origin main
-git pull --rebase origin main
-git push -u origin main
-git branch -a
