@@ -1,0 +1,4 @@
+"
+The next step is to begin recording that command buffer and end it cleanly, still without drawing anything.
+"
+_
