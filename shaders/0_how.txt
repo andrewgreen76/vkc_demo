@@ -1,0 +1,29 @@
+"
+Even though a shader in APIs like OpenGL or Vulkan may contain only a few lines, each line runs in parallel across thousands or millions of vertices or fragments on the GPU, so a small program can drive massive amounts of geometry and pixel processing.
+"
+
+
+"... the shader typically handles only one step (e.g., transforming vertices or coloring fragments) ..."
+|
+"... the full scene - meshes, textures, lighting, physics, and animation - is produced by the combined work of the CPU code, GPU pipeline, and many shader invocations."
+
+
+"
+Shader code ... is first compiled (into GPU-specific machine code or an intermediate form) before the GPU can execute it.
+"
+
+
+"
+... without shaders the GPU would be limited to a small set of fixed, inflexible rendering operations.
+"
+
+
+"
+Because GPUs are designed to run **any** shader program rather than one built-in set of rules, APIs like OpenGL and Vulkan require developers to supply shaders so the same hardware can render many DIFFERENT EFFECTS, LIGHTING MODELS, AND TRANSFORMATIONS instead of being locked to a single default pipeline.
+"
+
+
+Q: Why aren't all shaders written the same way so that all GPUs could create the same advanced visual effects?
+|
+A: "Because GPUs from different vendors have different architectures and capabilities, APIs like OpenGL and Vulkan allow standardized shader languages but still permit hardware-specific optimizations, so shaders cannot always be written identically for every GPU while achieving the same performance or features."
+_

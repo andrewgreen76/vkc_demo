@@ -1,4 +1,8 @@
 
+Shader:
+ . "A **shader** is a small program executed on the GPU in graphics APIs like **OpenGL** or **Vulkan** that
+    determines how vertices are transformed or how pixels are colored when rendering graphics."
+
 Top-level object:
  . root object for all the other objects in a Vulkan project; a Vulkan instance
  . "In **Vulkan**, a **“top-level object”** means the first object your program must create (the **instance**)
