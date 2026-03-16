@@ -6,4 +6,9 @@
 "
 **Vulkan** offers greater transparency and flexibility than **OpenGL** because it exposes lower-level control of the GPU and requires developers to manage many details that OpenGL previously handled automatically.
 "
+
+
+"
+**OpenGL** automatically manages tasks like GPU memory allocation, pipeline state changes, and command scheduling, whereas **Vulkan** makes developers handle these explicitly so drivers do less hidden work and applications can achieve more predictable performance and better parallelism.
+"
 _
